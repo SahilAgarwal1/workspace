@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../components/tfmicro/tensorflow/lite/micro/tools/make/downloads/kissfft/tools/kiss_fftr.c 
+
+C_DEPS += \
+./components/tfmicro/tensorflow/lite/micro/tools/make/downloads/kissfft/tools/kiss_fftr.d 
+
+OBJS += \
+./components/tfmicro/tensorflow/lite/micro/tools/make/downloads/kissfft/tools/kiss_fftr.obj 
+
+OBJS__QUOTED += \
+"components/tfmicro/tensorflow/lite/micro/tools/make/downloads/kissfft/tools/kiss_fftr.obj" 
+
+C_DEPS__QUOTED += \
+"components/tfmicro/tensorflow/lite/micro/tools/make/downloads/kissfft/tools/kiss_fftr.d" 
+
+C_SRCS__QUOTED += \
+"../components/tfmicro/tensorflow/lite/micro/tools/make/downloads/kissfft/tools/kiss_fftr.c" 
+
+

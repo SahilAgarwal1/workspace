@@ -1,0 +1,30 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CC_SRCS += \
+../components/tfmicro/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc \
+../components/tfmicro/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc 
+
+CC_DEPS += \
+./components/tfmicro/tensorflow/lite/micro/memory_planner/greedy_memory_planner.d \
+./components/tfmicro/tensorflow/lite/micro/memory_planner/linear_memory_planner.d 
+
+OBJS += \
+./components/tfmicro/tensorflow/lite/micro/memory_planner/greedy_memory_planner.obj \
+./components/tfmicro/tensorflow/lite/micro/memory_planner/linear_memory_planner.obj 
+
+CC_DEPS__QUOTED += \
+"components/tfmicro/tensorflow/lite/micro/memory_planner/greedy_memory_planner.d" \
+"components/tfmicro/tensorflow/lite/micro/memory_planner/linear_memory_planner.d" 
+
+OBJS__QUOTED += \
+"components/tfmicro/tensorflow/lite/micro/memory_planner/greedy_memory_planner.obj" \
+"components/tfmicro/tensorflow/lite/micro/memory_planner/linear_memory_planner.obj" 
+
+CC_SRCS__QUOTED += \
+"../components/tfmicro/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc" \
+"../components/tfmicro/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc" 
+
+

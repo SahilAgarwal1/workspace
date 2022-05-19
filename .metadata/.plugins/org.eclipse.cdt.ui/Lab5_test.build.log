@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Lab5_test ****
+
+/home/sahil/ti/ccs1020/ccs/utils/bin/gmake -k -j 4 all -O 
+ 
+gmake[1]: 'Lab5_test.out' is up to date.
+
+**** Build Finished ****

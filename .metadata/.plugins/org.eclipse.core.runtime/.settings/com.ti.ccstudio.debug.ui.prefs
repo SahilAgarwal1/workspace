@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+symbolAutoCompleteHistory<seperator>org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser<seperator>Data<seperator>Texas\ Instruments\ XDS100v2\ USB\ Debug\ Probe\\C28xx_CPU1=0x7300,0x7000,counter,SP,cel_vect,far_vect,Output,0x0400,0x0403,0x0402,402,test_byte,test_bit_num,TEST_BIT,0x400
+symbolAutoCompleteHistory<seperator>org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser<seperator>Program<seperator>Texas\ Instruments\ XDS100v2\ USB\ Debug\ Probe\\C28xx_CPU1=GPIO_CTRL_REGS,WD_Regs,0
+symbolAutoCompleteHistory<seperator>org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser<seperator>Texas\ Instruments\ XDS110\ USB\ Debug\ Probe\\CORTEX_M4_0=0x20000fc0,0x2000fc0,0x6BC02000
+useAnnotationsPrefPage=true

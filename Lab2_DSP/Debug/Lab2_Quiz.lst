@@ -1,0 +1,162 @@
+TMS320C2000 Assembler Unix v20.2.4 Fri Oct  1 17:33:45 2021
+
+Copyright (c) 1996-2018 Texas Instruments Incorporated
+../Lab2_Quiz.asm                                                     PAGE    1
+
+       1              ; program for lab quiz
+       2              ;Sahil Agarwal
+       3              
+       4                      .global _c_int00
+       5              
+       6              
+       7        8022  vect1_addr .set 0x8022
+       8        8122  vect2_addr .set 0x8122
+       9              
+      10        7000  WD_Regs .set 0x7000
+      11        0029  WDCR .set 0x29
+      12        0068  WDRC_data .set 0x68
+      13              
+      14        7C00  GPIO_CTRL_REGS .set 0x7C00
+      15        0006  GPAMUX1 .set 0x6
+      16        0008  GPAMUX2 .set 0x8
+      17        000A  GPADIR .set 0xA
+      18              
+      19        0000  GPAMUX1_data .set 0x00
+      20        0000  GPAMUX2_data .set 0x00
+      21              
+      22        00FF  GPADIR_data_word1 .set 0x00FF
+      23              
+      24        7F00  GPIO_DATA_REGS .set 0x7F00
+      25        0000  GPADAT .set 0x0
+      26        0002  GPASET .set 0x2
+      27        0004  GPACLR .set 0x4
+      28              
+      29        000C  GPAPUD .set 0xC
+      30              
+      31        30FF  GPAPUD_data_word1 .set ~(1100111100000000b)
+                FFFF 
+      32              
+      33              
+      34 00000000       .data
+      35 00000000 0000  counter .word 0x0
+      36              
+      37 00000000       vect_min .usect ".ebss", 1 ; reserve 1 word for min
+      38 00000001       vect_max .usect ".ebss", 1 ; reserve 1 word for max
+      39 00000002       vect_sum .usect ".ebss", 2 ; reserve 1 word for the sum
+      40              
+      41              
+      42 00000001               .text
+      43              
+      44 00000001       _c_int00:
+      45              
+      46                      ; turn off watchdog register
+      47 00000001 561F          SETC OBJMODE ; C28X mode
+      48 00000002 7622          EALLOW ; enable access to write protected registers
+      49 00000003 B9C0          MOVZ DP, #WD_Regs >> 6
+      50 00000004 2829          MOV @(WDCR + WD_Regs), #WDRC_data ; turn off watchdog driver
+         00000005 0068 
+      51              
+      52                      ; setting up GPIO
+      53 00000006 B9F0          MOVZ DP, #GPIO_CTRL_REGS >> 6
+TMS320C2000 Assembler Unix v20.2.4 Fri Oct  1 17:33:45 2021
+
+Copyright (c) 1996-2018 Texas Instruments Incorporated
+../Lab2_Quiz.asm                                                     PAGE    2
+
+      54 00000007 2B06          MOV @(GPIO_CTRL_REGS + GPAMUX1), #GPAMUX1_data ; set mux
+      55 00000008 2B08          MOV @(GPIO_CTRL_REGS + GPAMUX2), #GPAMUX2_data  ; set mux
+      56 00000009 280C          MOV @(GPIO_CTRL_REGS + GPAPUD), #GPAPUD_data_word1 ; set the pull up resistor on GPIO3
+         0000000a 30FF 
+      57 0000000b 280A          MOV @(GPIO_CTRL_REGS + GPADIR), #GPADIR_data_word1 ; set the direction
+         0000000c 00FF 
+      58              
+      59 0000000d       LOOP:
+      60 0000000d B9FC          MOVZ DP, #GPIO_DATA_REGS >> 6
+      61 0000000e 4E00          TBIT @(GPIO_DATA_REGS + GPADAT), #14
+      62 0000000f 6C26          B MULT, NTC
+      63              
+      64                      ; getting min and max values
+      65 00000010 8D00'         MOVL XAR0, #counter
+         00000011 0000 
+      66 00000012 8D40          MOVL XAR1, #vect1_addr
+         00000013 8022 
+      67 00000014 8D80          MOVL XAR2, #vect2_addr
+         00000015 8122 
+      68                      ; set up counter
+      69 00000016 9B05          MOV AH, #5
+      70 00000017 97C0          MOV *AR0, AH
+      71                      ;Load First Value into AH
+      72 00000018 93C1          MOV AH, *XAR1
+      73 00000019       GET_MIN:
+      74              
+      75 00000019 5675          MIN AH, *XAR1++
+         0000001a 0081 
+      76 0000001b 5675          MIN AH, *XAR2++
+         0000001c 0082 
+      77              
+      78 0000001d 0BC0          DEC *XAR0;
+      79 0000001e 60FB          B GET_MIN, NEQ
+      80 0000001f 28A3-         MOV AR3, #vect_min
+         00000020 0000 
+      81 00000021 97C3          MOV *XAR3, AH ; store AH in vect_min
+      82              
+      83                      ; getting min and max values
+      84 00000022 8D00'         MOVL XAR0, #counter
+         00000023 0000 
+      85 00000024 8D40          MOVL XAR1, #vect1_addr
+         00000025 8022 
+      86 00000026 8D80          MOVL XAR2, #vect2_addr
+         00000027 8122 
+      87                      ; set up counter
+      88 00000028 9B04          MOV AH, #4
+      89 00000029 97C0          MOV *AR0, AH
+      90              
+      91                      ;Load First Value into AH
+      92 0000002a 9381          MOV AH, *XAR1++
+      93 0000002b       GET_MAX:
+      94              
+      95 0000002b 5673          MAX AH, *XAR1++
+         0000002c 0081 
+      96 0000002d 5673          MAX AH, *XAR2++
+TMS320C2000 Assembler Unix v20.2.4 Fri Oct  1 17:33:45 2021
+
+Copyright (c) 1996-2018 Texas Instruments Incorporated
+../Lab2_Quiz.asm                                                     PAGE    3
+
+         0000002e 0082 
+      97              
+      98 0000002f 0BC0          DEC *XAR0;
+      99 00000030 60FB          B GET_MAX, NEQ
+     100 00000031 28A3-         MOV AR3, #vect_max
+         00000032 0001 
+     101 00000033 97C3          MOV *XAR3, AH ; store AH in vect_max
+     102 00000034 6FD9          B LOOP, UNC
+     103 00000035       MULT:
+     104 00000035 8D00'         MOVL XAR0, #counter
+         00000036 0000 
+     105 00000037 8D40          MOVL XAR1, #vect1_addr
+         00000038 8022 
+     106 00000039 8D80          MOVL XAR2, #vect2_addr
+         0000003a 8122 
+     107              
+     108                      ; set up counter
+     109 0000003b 9B05          MOV AH, #5
+     110 0000003c 97C0          MOV *AR0, AH
+     111 0000003d 9B00          MOV AH, #0
+     112 0000003e 9A00          MOV AL, #0
+     113 0000003f       MULT_LOOP:
+     114 0000003f 1081          MOVA T, *XAR1++ ; MOV Vector 1 first value into T reg and add product to accumulator
+     115 00000040 3382          MPY P,T,*XAR2++
+     116 00000041 0BC0          DEC *AR0
+     117 00000042 60FD          B MULT_LOOP, NEQ
+     118 00000043 8DC0-         MOVL XAR3, #vect_sum
+         00000044 0002 
+     119 00000045 1EC3          MOVL *XAR3, ACC
+     120              
+     121 00000046 6FC7          B LOOP, UNC
+     122              
+     123              
+     124              
+     125              
+
+No Assembly Errors, No Assembly Warnings

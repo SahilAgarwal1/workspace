@@ -1,0 +1,30 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../Source/CommonTables/arm_common_tables.c \
+../Source/CommonTables/arm_const_structs.c 
+
+C_DEPS += \
+./Source/CommonTables/arm_common_tables.d \
+./Source/CommonTables/arm_const_structs.d 
+
+OBJS += \
+./Source/CommonTables/arm_common_tables.obj \
+./Source/CommonTables/arm_const_structs.obj 
+
+OBJS__QUOTED += \
+"Source/CommonTables/arm_common_tables.obj" \
+"Source/CommonTables/arm_const_structs.obj" 
+
+C_DEPS__QUOTED += \
+"Source/CommonTables/arm_common_tables.d" \
+"Source/CommonTables/arm_const_structs.d" 
+
+C_SRCS__QUOTED += \
+"../Source/CommonTables/arm_common_tables.c" \
+"../Source/CommonTables/arm_const_structs.c" 
+
+

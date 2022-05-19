@@ -1,0 +1,84 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CC_SRCS += \
+../components/tfmicro/tensorflow/lite/micro/debug_log.cc \
+../components/tfmicro/tensorflow/lite/micro/memory_helpers.cc \
+../components/tfmicro/tensorflow/lite/micro/micro_allocator.cc \
+../components/tfmicro/tensorflow/lite/micro/micro_error_reporter.cc \
+../components/tfmicro/tensorflow/lite/micro/micro_interpreter.cc \
+../components/tfmicro/tensorflow/lite/micro/micro_optional_debug_tools.cc \
+../components/tfmicro/tensorflow/lite/micro/micro_string.cc \
+../components/tfmicro/tensorflow/lite/micro/micro_time.cc \
+../components/tfmicro/tensorflow/lite/micro/micro_utils.cc \
+../components/tfmicro/tensorflow/lite/micro/simple_memory_allocator.cc \
+../components/tfmicro/tensorflow/lite/micro/test_helpers.cc 
+
+CC_DEPS += \
+./components/tfmicro/tensorflow/lite/micro/debug_log.d \
+./components/tfmicro/tensorflow/lite/micro/memory_helpers.d \
+./components/tfmicro/tensorflow/lite/micro/micro_allocator.d \
+./components/tfmicro/tensorflow/lite/micro/micro_error_reporter.d \
+./components/tfmicro/tensorflow/lite/micro/micro_interpreter.d \
+./components/tfmicro/tensorflow/lite/micro/micro_optional_debug_tools.d \
+./components/tfmicro/tensorflow/lite/micro/micro_string.d \
+./components/tfmicro/tensorflow/lite/micro/micro_time.d \
+./components/tfmicro/tensorflow/lite/micro/micro_utils.d \
+./components/tfmicro/tensorflow/lite/micro/simple_memory_allocator.d \
+./components/tfmicro/tensorflow/lite/micro/test_helpers.d 
+
+OBJS += \
+./components/tfmicro/tensorflow/lite/micro/debug_log.obj \
+./components/tfmicro/tensorflow/lite/micro/memory_helpers.obj \
+./components/tfmicro/tensorflow/lite/micro/micro_allocator.obj \
+./components/tfmicro/tensorflow/lite/micro/micro_error_reporter.obj \
+./components/tfmicro/tensorflow/lite/micro/micro_interpreter.obj \
+./components/tfmicro/tensorflow/lite/micro/micro_optional_debug_tools.obj \
+./components/tfmicro/tensorflow/lite/micro/micro_string.obj \
+./components/tfmicro/tensorflow/lite/micro/micro_time.obj \
+./components/tfmicro/tensorflow/lite/micro/micro_utils.obj \
+./components/tfmicro/tensorflow/lite/micro/simple_memory_allocator.obj \
+./components/tfmicro/tensorflow/lite/micro/test_helpers.obj 
+
+CC_DEPS__QUOTED += \
+"components/tfmicro/tensorflow/lite/micro/debug_log.d" \
+"components/tfmicro/tensorflow/lite/micro/memory_helpers.d" \
+"components/tfmicro/tensorflow/lite/micro/micro_allocator.d" \
+"components/tfmicro/tensorflow/lite/micro/micro_error_reporter.d" \
+"components/tfmicro/tensorflow/lite/micro/micro_interpreter.d" \
+"components/tfmicro/tensorflow/lite/micro/micro_optional_debug_tools.d" \
+"components/tfmicro/tensorflow/lite/micro/micro_string.d" \
+"components/tfmicro/tensorflow/lite/micro/micro_time.d" \
+"components/tfmicro/tensorflow/lite/micro/micro_utils.d" \
+"components/tfmicro/tensorflow/lite/micro/simple_memory_allocator.d" \
+"components/tfmicro/tensorflow/lite/micro/test_helpers.d" 
+
+OBJS__QUOTED += \
+"components/tfmicro/tensorflow/lite/micro/debug_log.obj" \
+"components/tfmicro/tensorflow/lite/micro/memory_helpers.obj" \
+"components/tfmicro/tensorflow/lite/micro/micro_allocator.obj" \
+"components/tfmicro/tensorflow/lite/micro/micro_error_reporter.obj" \
+"components/tfmicro/tensorflow/lite/micro/micro_interpreter.obj" \
+"components/tfmicro/tensorflow/lite/micro/micro_optional_debug_tools.obj" \
+"components/tfmicro/tensorflow/lite/micro/micro_string.obj" \
+"components/tfmicro/tensorflow/lite/micro/micro_time.obj" \
+"components/tfmicro/tensorflow/lite/micro/micro_utils.obj" \
+"components/tfmicro/tensorflow/lite/micro/simple_memory_allocator.obj" \
+"components/tfmicro/tensorflow/lite/micro/test_helpers.obj" 
+
+CC_SRCS__QUOTED += \
+"../components/tfmicro/tensorflow/lite/micro/debug_log.cc" \
+"../components/tfmicro/tensorflow/lite/micro/memory_helpers.cc" \
+"../components/tfmicro/tensorflow/lite/micro/micro_allocator.cc" \
+"../components/tfmicro/tensorflow/lite/micro/micro_error_reporter.cc" \
+"../components/tfmicro/tensorflow/lite/micro/micro_interpreter.cc" \
+"../components/tfmicro/tensorflow/lite/micro/micro_optional_debug_tools.cc" \
+"../components/tfmicro/tensorflow/lite/micro/micro_string.cc" \
+"../components/tfmicro/tensorflow/lite/micro/micro_time.cc" \
+"../components/tfmicro/tensorflow/lite/micro/micro_utils.cc" \
+"../components/tfmicro/tensorflow/lite/micro/simple_memory_allocator.cc" \
+"../components/tfmicro/tensorflow/lite/micro/test_helpers.cc" 
+
+

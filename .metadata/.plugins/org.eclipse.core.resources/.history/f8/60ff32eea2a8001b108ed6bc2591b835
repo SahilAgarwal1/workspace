@@ -1,0 +1,78 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../cc3100/simplelink/source/device.c \
+../cc3100/simplelink/source/driver.c \
+../cc3100/simplelink/source/flowcont.c \
+../cc3100/simplelink/source/fs.c \
+../cc3100/simplelink/source/netapp.c \
+../cc3100/simplelink/source/netcfg.c \
+../cc3100/simplelink/source/nonos.c \
+../cc3100/simplelink/source/socket.c \
+../cc3100/simplelink/source/spawn.c \
+../cc3100/simplelink/source/wlan.c 
+
+C_DEPS += \
+./cc3100/simplelink/source/device.d \
+./cc3100/simplelink/source/driver.d \
+./cc3100/simplelink/source/flowcont.d \
+./cc3100/simplelink/source/fs.d \
+./cc3100/simplelink/source/netapp.d \
+./cc3100/simplelink/source/netcfg.d \
+./cc3100/simplelink/source/nonos.d \
+./cc3100/simplelink/source/socket.d \
+./cc3100/simplelink/source/spawn.d \
+./cc3100/simplelink/source/wlan.d 
+
+OBJS += \
+./cc3100/simplelink/source/device.obj \
+./cc3100/simplelink/source/driver.obj \
+./cc3100/simplelink/source/flowcont.obj \
+./cc3100/simplelink/source/fs.obj \
+./cc3100/simplelink/source/netapp.obj \
+./cc3100/simplelink/source/netcfg.obj \
+./cc3100/simplelink/source/nonos.obj \
+./cc3100/simplelink/source/socket.obj \
+./cc3100/simplelink/source/spawn.obj \
+./cc3100/simplelink/source/wlan.obj 
+
+OBJS__QUOTED += \
+"cc3100/simplelink/source/device.obj" \
+"cc3100/simplelink/source/driver.obj" \
+"cc3100/simplelink/source/flowcont.obj" \
+"cc3100/simplelink/source/fs.obj" \
+"cc3100/simplelink/source/netapp.obj" \
+"cc3100/simplelink/source/netcfg.obj" \
+"cc3100/simplelink/source/nonos.obj" \
+"cc3100/simplelink/source/socket.obj" \
+"cc3100/simplelink/source/spawn.obj" \
+"cc3100/simplelink/source/wlan.obj" 
+
+C_DEPS__QUOTED += \
+"cc3100/simplelink/source/device.d" \
+"cc3100/simplelink/source/driver.d" \
+"cc3100/simplelink/source/flowcont.d" \
+"cc3100/simplelink/source/fs.d" \
+"cc3100/simplelink/source/netapp.d" \
+"cc3100/simplelink/source/netcfg.d" \
+"cc3100/simplelink/source/nonos.d" \
+"cc3100/simplelink/source/socket.d" \
+"cc3100/simplelink/source/spawn.d" \
+"cc3100/simplelink/source/wlan.d" 
+
+C_SRCS__QUOTED += \
+"../cc3100/simplelink/source/device.c" \
+"../cc3100/simplelink/source/driver.c" \
+"../cc3100/simplelink/source/flowcont.c" \
+"../cc3100/simplelink/source/fs.c" \
+"../cc3100/simplelink/source/netapp.c" \
+"../cc3100/simplelink/source/netcfg.c" \
+"../cc3100/simplelink/source/nonos.c" \
+"../cc3100/simplelink/source/socket.c" \
+"../cc3100/simplelink/source/spawn.c" \
+"../cc3100/simplelink/source/wlan.c" 
+
+

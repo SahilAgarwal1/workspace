@@ -1,0 +1,66 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CC_SRCS += \
+../micro_features/micro_features_generator.cc \
+../micro_features/micro_model_settings.cc \
+../micro_features/no_micro_features_data.cc \
+../micro_features/tiny_conv_micro_features_model_data.cc \
+../micro_features/tiny_conv_micro_features_model_data_5x4.cc \
+../micro_features/tiny_conv_micro_features_model_data_mean.cc \
+../micro_features/tiny_conv_micro_features_model_data_original.cc \
+../micro_features/yes_micro_features_data.cc 
+
+CC_DEPS += \
+./micro_features/micro_features_generator.d \
+./micro_features/micro_model_settings.d \
+./micro_features/no_micro_features_data.d \
+./micro_features/tiny_conv_micro_features_model_data.d \
+./micro_features/tiny_conv_micro_features_model_data_5x4.d \
+./micro_features/tiny_conv_micro_features_model_data_mean.d \
+./micro_features/tiny_conv_micro_features_model_data_original.d \
+./micro_features/yes_micro_features_data.d 
+
+OBJS += \
+./micro_features/micro_features_generator.obj \
+./micro_features/micro_model_settings.obj \
+./micro_features/no_micro_features_data.obj \
+./micro_features/tiny_conv_micro_features_model_data.obj \
+./micro_features/tiny_conv_micro_features_model_data_5x4.obj \
+./micro_features/tiny_conv_micro_features_model_data_mean.obj \
+./micro_features/tiny_conv_micro_features_model_data_original.obj \
+./micro_features/yes_micro_features_data.obj 
+
+CC_DEPS__QUOTED += \
+"micro_features/micro_features_generator.d" \
+"micro_features/micro_model_settings.d" \
+"micro_features/no_micro_features_data.d" \
+"micro_features/tiny_conv_micro_features_model_data.d" \
+"micro_features/tiny_conv_micro_features_model_data_5x4.d" \
+"micro_features/tiny_conv_micro_features_model_data_mean.d" \
+"micro_features/tiny_conv_micro_features_model_data_original.d" \
+"micro_features/yes_micro_features_data.d" 
+
+OBJS__QUOTED += \
+"micro_features/micro_features_generator.obj" \
+"micro_features/micro_model_settings.obj" \
+"micro_features/no_micro_features_data.obj" \
+"micro_features/tiny_conv_micro_features_model_data.obj" \
+"micro_features/tiny_conv_micro_features_model_data_5x4.obj" \
+"micro_features/tiny_conv_micro_features_model_data_mean.obj" \
+"micro_features/tiny_conv_micro_features_model_data_original.obj" \
+"micro_features/yes_micro_features_data.obj" 
+
+CC_SRCS__QUOTED += \
+"../micro_features/micro_features_generator.cc" \
+"../micro_features/micro_model_settings.cc" \
+"../micro_features/no_micro_features_data.cc" \
+"../micro_features/tiny_conv_micro_features_model_data.cc" \
+"../micro_features/tiny_conv_micro_features_model_data_5x4.cc" \
+"../micro_features/tiny_conv_micro_features_model_data_mean.cc" \
+"../micro_features/tiny_conv_micro_features_model_data_original.cc" \
+"../micro_features/yes_micro_features_data.cc" 
+
+

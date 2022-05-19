@@ -1,0 +1,71 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CMD_SRCS += \
+../msp432p401r.cmd 
+
+CC_SRCS += \
+../audio_provider.cc \
+../command_responder.cc \
+../feature_provider.cc \
+../main_functions.cc \
+../recognize_commands.cc 
+
+C_SRCS += \
+../startup_msp432p401r_ccs.c \
+../system_msp432p401r.c 
+
+C_DEPS += \
+./startup_msp432p401r_ccs.d \
+./system_msp432p401r.d 
+
+CC_DEPS += \
+./audio_provider.d \
+./command_responder.d \
+./feature_provider.d \
+./main_functions.d \
+./recognize_commands.d 
+
+OBJS += \
+./audio_provider.obj \
+./command_responder.obj \
+./feature_provider.obj \
+./main_functions.obj \
+./recognize_commands.obj \
+./startup_msp432p401r_ccs.obj \
+./system_msp432p401r.obj 
+
+CC_DEPS__QUOTED += \
+"audio_provider.d" \
+"command_responder.d" \
+"feature_provider.d" \
+"main_functions.d" \
+"recognize_commands.d" 
+
+OBJS__QUOTED += \
+"audio_provider.obj" \
+"command_responder.obj" \
+"feature_provider.obj" \
+"main_functions.obj" \
+"recognize_commands.obj" \
+"startup_msp432p401r_ccs.obj" \
+"system_msp432p401r.obj" 
+
+C_DEPS__QUOTED += \
+"startup_msp432p401r_ccs.d" \
+"system_msp432p401r.d" 
+
+CC_SRCS__QUOTED += \
+"../audio_provider.cc" \
+"../command_responder.cc" \
+"../feature_provider.cc" \
+"../main_functions.cc" \
+"../recognize_commands.cc" 
+
+C_SRCS__QUOTED += \
+"../startup_msp432p401r_ccs.c" \
+"../system_msp432p401r.c" 
+
+

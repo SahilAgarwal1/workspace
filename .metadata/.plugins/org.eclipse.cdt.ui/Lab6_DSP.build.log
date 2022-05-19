@@ -1,0 +1,26 @@
+
+**** Build of configuration Debug for project Lab6_DSP ****
+
+/home/sahil/ti/ccs1020/ccs/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../main_quiz.c"
+Invoking: C2000 Compiler
+"/home/sahil/ti/ccs1020/ccs/tools/compiler/ti-cgt-c2000_20.2.4.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --include_path="/home/sahil/Documents/workspace/Lab6_DSP" --include_path="/home/sahil/ti/c2000/C2000Ware_3_04_00_00/device_support/f2837xd/headers/include" --include_path="/home/sahil/ti/c2000/C2000Ware_3_04_00_00/device_support/f2837xd/common/include" --include_path="/home/sahil/ti/c2000/C2000Ware_3_04_00_00/driverlib/f2837xd/driverlib" --include_path="/home/sahil/ti/ccs1020/ccs/tools/compiler/ti-cgt-c2000_20.2.4.LTS/include" --advice:performance=all --define=CPU1 --define=_DUAL_HEADERS --define=_LAUNCHXL_F28379D -g --c11 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi --preproc_with_compile --preproc_dependency="main_quiz.d_raw"  "../main_quiz.c"
+"../main_quiz.c", line 43: warning #225-D: function "initBreakoutBoardGPIO" declared implicitly
+"../main_quiz.c", line 45: warning #225-D: function "initMRINTB" declared implicitly
+"../main_quiz.c", line 46: warning #225-D: function "initGPIOINT" declared implicitly
+"../main_quiz.c", line 56: warning #112-D: statement is unreachable
+"../main_quiz.c", line 61: warning #161-D: declaration is incompatible with previous "initBreakoutBoardGPIO" (declared at line 43)
+"../main_quiz.c", line 147: warning #179-D: variable "temp" was declared but never referenced
+"../main_quiz.c", line 178: warning #161-D: declaration is incompatible with previous "initGPIOINT" (declared at line 46)
+Finished building: "../main_quiz.c"
+ 
+Building target: "Lab6_DSP.out"
+Invoking: C2000 Linker
+"/home/sahil/ti/ccs1020/ccs/tools/compiler/ti-cgt-c2000_20.2.4.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla1 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu2 --advice:performance=all --define=CPU1 --define=_DUAL_HEADERS --define=_LAUNCHXL_F28379D -g --c11 --diag_warning=225 --diag_wrap=off --display_error_number --abi=coffabi -z -m"Lab6_DSP.map" --stack_size=0x200 --warn_sections -i"/home/sahil/ti/ccs1020/ccs/tools/compiler/ti-cgt-c2000_20.2.4.LTS/lib" -i"/home/sahil/ti/ccs1020/ccs/tools/compiler/ti-cgt-c2000_20.2.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="Lab6_DSP_linkInfo.xml" --rom_model -o "Lab6_DSP.out" "./AIC23.obj" "./initAIC23.obj" "./main_quiz.obj" "./Common/F2837xD_Adc.obj" "./Common/F2837xD_CodeStartBranch.obj" "./Common/F2837xD_CpuTimers.obj" "./Common/F2837xD_DBGIER.obj" "./Common/F2837xD_DefaultISR.obj" "./Common/F2837xD_Dma.obj" "./Common/F2837xD_ECap.obj" "./Common/F2837xD_EPwm.obj" "./Common/F2837xD_EQep.obj" "./Common/F2837xD_Emif.obj" "./Common/F2837xD_Gpio.obj" "./Common/F2837xD_I2C.obj" "./Common/F2837xD_Ipc.obj" "./Common/F2837xD_Ipc_Driver.obj" "./Common/F2837xD_Ipc_Driver_Lite.obj" "./Common/F2837xD_Ipc_Driver_Util.obj" "./Common/F2837xD_Mcbsp.obj" "./Common/F2837xD_PieCtrl.obj" "./Common/F2837xD_PieVect.obj" "./Common/F2837xD_Sci.obj" "./Common/F2837xD_Spi.obj" "./Common/F2837xD_SysCtrl.obj" "./Common/F2837xD_TempSensorConv.obj" "./Common/F2837xD_Upp.obj" "./Common/F2837xD_can.obj" "./Common/F2837xD_sci_io.obj" "./Common/F2837xD_sdfm_drivers.obj" "./Common/F2837xD_struct.obj" "./Common/F2837xD_usDelay.obj" "./Common/device.obj" "./Header/F2837xD_GlobalVariableDefs.obj" "./User_Drivers/CircleBuff.obj" "./User_Drivers/LCD_DRIVER.obj" "./User_Drivers/OneToOneI2CDriver.obj" "./User_Drivers/RAM_DRIVER.obj" "../2837xD_RAM_lnk_cpu1_USB.cmd" "../Header/F2837xD_Headers_nonBIOS_cpu1.cmd"  -llibc.a -l"/home/sahil/ti/c2000/C2000Ware_3_04_00_00/driverlib/f2837xd/driverlib/ccs/Release/driverlib.lib" 
+<Linking>
+"../main_quiz.c", line 196: warning #161-D: declaration is incompatible with previous "initMRINTB" (declared at line 45)
+Finished building target: "Lab6_DSP.out"
+ 
+
+**** Build Finished ****

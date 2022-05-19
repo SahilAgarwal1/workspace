@@ -1,0 +1,31 @@
+
+
+/**
+ * main.c
+ */
+
+#include <F2837xD_device.h>
+#include <sysctl.h>
+#include <LCD_DRIVER.h>
+#include <OneToOneI2CDriver.h>
+
+
+
+int main(void)
+{
+
+    InitSysCtrl();
+    init_LCD();
+
+
+    Uint16 gang[13] = {'S','A','H','I','L',' ', 'A', 'G', 'A', 'R', 'W', 'A', 'L'};
+
+
+
+    write_string_LCD(gang);
+    while(true){
+        //write_string_LCD(gang);
+    }
+
+	return 0;
+}

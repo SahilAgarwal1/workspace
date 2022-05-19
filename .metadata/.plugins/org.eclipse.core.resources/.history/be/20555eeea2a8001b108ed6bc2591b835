@@ -1,0 +1,216 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CC_SRCS += \
+../components/tfmicro/tensorflow/lite/micro/kernels/activations.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/add.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/all_ops_resolver.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/arg_min_max.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/ceil.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/circular_buffer.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/comparisons.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/concatenation.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/conv.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/depthwise_conv.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/dequantize.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/elementwise.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/floor.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/fully_connected.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/logical.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/logistic.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/maximum_minimum.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/mul.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/neg.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/pack.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/pad.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/pooling.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/prelu.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/quantize.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/reduce.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/reshape.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/round.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/softmax.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/split.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/strided_slice.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/sub.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/svdf.cc \
+../components/tfmicro/tensorflow/lite/micro/kernels/unpack.cc 
+
+CC_DEPS += \
+./components/tfmicro/tensorflow/lite/micro/kernels/activations.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/add.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/all_ops_resolver.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/arg_min_max.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/ceil.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/circular_buffer.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/comparisons.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/concatenation.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/conv.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/depthwise_conv.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/dequantize.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/elementwise.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/floor.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/fully_connected.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/logical.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/logistic.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/maximum_minimum.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/mul.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/neg.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/pack.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/pad.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/pooling.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/prelu.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/quantize.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/reduce.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/reshape.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/round.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/softmax.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/split.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/strided_slice.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/sub.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/svdf.d \
+./components/tfmicro/tensorflow/lite/micro/kernels/unpack.d 
+
+OBJS += \
+./components/tfmicro/tensorflow/lite/micro/kernels/activations.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/add.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/all_ops_resolver.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/arg_min_max.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/ceil.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/circular_buffer.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/comparisons.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/concatenation.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/conv.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/depthwise_conv.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/dequantize.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/elementwise.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/floor.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/fully_connected.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/logical.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/logistic.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/maximum_minimum.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/mul.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/neg.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/pack.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/pad.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/pooling.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/prelu.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/quantize.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/reduce.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/reshape.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/round.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/softmax.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/split.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/strided_slice.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/sub.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/svdf.obj \
+./components/tfmicro/tensorflow/lite/micro/kernels/unpack.obj 
+
+CC_DEPS__QUOTED += \
+"components/tfmicro/tensorflow/lite/micro/kernels/activations.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/add.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/all_ops_resolver.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/arg_min_max.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/ceil.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/circular_buffer.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/comparisons.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/concatenation.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/conv.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/depthwise_conv.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/dequantize.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/elementwise.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/floor.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/fully_connected.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/logical.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/logistic.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/maximum_minimum.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/mul.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/neg.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/pack.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/pad.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/pooling.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/prelu.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/quantize.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/reduce.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/reshape.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/round.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/softmax.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/split.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/strided_slice.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/sub.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/svdf.d" \
+"components/tfmicro/tensorflow/lite/micro/kernels/unpack.d" 
+
+OBJS__QUOTED += \
+"components/tfmicro/tensorflow/lite/micro/kernels/activations.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/add.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/all_ops_resolver.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/arg_min_max.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/ceil.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/circular_buffer.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/comparisons.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/concatenation.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/conv.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/depthwise_conv.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/dequantize.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/elementwise.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/floor.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/fully_connected.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/logical.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/logistic.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/maximum_minimum.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/mul.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/neg.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/pack.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/pad.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/pooling.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/prelu.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/quantize.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/reduce.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/reshape.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/round.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/softmax.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/split.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/strided_slice.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/sub.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/svdf.obj" \
+"components/tfmicro/tensorflow/lite/micro/kernels/unpack.obj" 
+
+CC_SRCS__QUOTED += \
+"../components/tfmicro/tensorflow/lite/micro/kernels/activations.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/add.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/all_ops_resolver.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/arg_min_max.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/ceil.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/circular_buffer.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/comparisons.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/concatenation.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/conv.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/depthwise_conv.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/dequantize.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/elementwise.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/floor.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/fully_connected.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/logical.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/logistic.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/maximum_minimum.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/mul.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/neg.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/pack.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/pad.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/pooling.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/prelu.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/quantize.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/reduce.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/reshape.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/round.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/softmax.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/split.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/strided_slice.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/sub.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/svdf.cc" \
+"../components/tfmicro/tensorflow/lite/micro/kernels/unpack.cc" 
+
+

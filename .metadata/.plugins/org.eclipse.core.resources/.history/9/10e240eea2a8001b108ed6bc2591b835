@@ -1,0 +1,115 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CC_SRCS += \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/fft.cc \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/fft_util.cc 
+
+C_SRCS += \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/filterbank.c \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/frontend.c \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/frontend_util.c \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_lut.c \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_scale.c \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_scale_util.c \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/noise_reduction.c \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/noise_reduction_util.c \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control.c \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control_util.c \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/window.c \
+../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/window_util.c 
+
+C_DEPS += \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/filterbank.d \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.d \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/frontend.d \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/frontend_util.d \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_lut.d \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_scale.d \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_scale_util.d \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/noise_reduction.d \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/noise_reduction_util.d \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control.d \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control_util.d \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/window.d \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/window_util.d 
+
+CC_DEPS += \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/fft.d \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/fft_util.d 
+
+OBJS += \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/fft.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/fft_util.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/filterbank.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/frontend.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/frontend_util.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_lut.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_scale.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_scale_util.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/noise_reduction.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/noise_reduction_util.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control_util.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/window.obj \
+./components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/window_util.obj 
+
+CC_DEPS__QUOTED += \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/fft.d" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/fft_util.d" 
+
+OBJS__QUOTED += \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/fft.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/fft_util.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/filterbank.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/frontend.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/frontend_util.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_lut.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_scale.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_scale_util.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/noise_reduction.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/noise_reduction_util.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control_util.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/window.obj" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/window_util.obj" 
+
+C_DEPS__QUOTED += \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/filterbank.d" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.d" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/frontend.d" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/frontend_util.d" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_lut.d" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_scale.d" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_scale_util.d" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/noise_reduction.d" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/noise_reduction_util.d" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control.d" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control_util.d" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/window.d" \
+"components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/window_util.d" 
+
+CC_SRCS__QUOTED += \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/fft.cc" 
+
+C_SRCS__QUOTED += \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/filterbank.c" \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/filterbank_util.c" \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/frontend.c" \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/frontend_util.c" \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_lut.c" \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_scale.c" \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/log_scale_util.c" \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/noise_reduction.c" \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/noise_reduction_util.c" \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control.c" \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control_util.c" \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/window.c" \
+"../components/tfmicro/tensorflow/lite/experimental/microfrontend/lib/window_util.c" 
+
+

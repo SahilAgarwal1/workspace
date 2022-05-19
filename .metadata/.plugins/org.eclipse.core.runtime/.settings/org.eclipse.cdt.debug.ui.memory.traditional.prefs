@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+memoryColorBackgroundMemorySpace-Data=250,238,195
+memoryColorBackgroundMemorySpace-IO=122,245,0
+memoryColorBackgroundMemorySpace-Peripheral=184,242,255
+memoryColorBackgroundMemorySpace-Program=255,179,0
+memoryColorBackgroundMemorySpace-RAM=238,192,192
+memorySpaceIdList=RAM,Data,Program,IO,Peripheral

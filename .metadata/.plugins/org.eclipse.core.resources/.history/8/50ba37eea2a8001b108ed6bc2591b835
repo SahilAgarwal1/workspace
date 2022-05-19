@@ -1,0 +1,42 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CC_SRCS += \
+../components/tfmicro/tensorflow/lite/core/api/error_reporter.cc \
+../components/tfmicro/tensorflow/lite/core/api/flatbuffer_conversions.cc \
+../components/tfmicro/tensorflow/lite/core/api/op_resolver.cc \
+../components/tfmicro/tensorflow/lite/core/api/tensor_utils.cc 
+
+CC_DEPS += \
+./components/tfmicro/tensorflow/lite/core/api/error_reporter.d \
+./components/tfmicro/tensorflow/lite/core/api/flatbuffer_conversions.d \
+./components/tfmicro/tensorflow/lite/core/api/op_resolver.d \
+./components/tfmicro/tensorflow/lite/core/api/tensor_utils.d 
+
+OBJS += \
+./components/tfmicro/tensorflow/lite/core/api/error_reporter.obj \
+./components/tfmicro/tensorflow/lite/core/api/flatbuffer_conversions.obj \
+./components/tfmicro/tensorflow/lite/core/api/op_resolver.obj \
+./components/tfmicro/tensorflow/lite/core/api/tensor_utils.obj 
+
+CC_DEPS__QUOTED += \
+"components/tfmicro/tensorflow/lite/core/api/error_reporter.d" \
+"components/tfmicro/tensorflow/lite/core/api/flatbuffer_conversions.d" \
+"components/tfmicro/tensorflow/lite/core/api/op_resolver.d" \
+"components/tfmicro/tensorflow/lite/core/api/tensor_utils.d" 
+
+OBJS__QUOTED += \
+"components/tfmicro/tensorflow/lite/core/api/error_reporter.obj" \
+"components/tfmicro/tensorflow/lite/core/api/flatbuffer_conversions.obj" \
+"components/tfmicro/tensorflow/lite/core/api/op_resolver.obj" \
+"components/tfmicro/tensorflow/lite/core/api/tensor_utils.obj" 
+
+CC_SRCS__QUOTED += \
+"../components/tfmicro/tensorflow/lite/core/api/error_reporter.cc" \
+"../components/tfmicro/tensorflow/lite/core/api/flatbuffer_conversions.cc" \
+"../components/tfmicro/tensorflow/lite/core/api/op_resolver.cc" \
+"../components/tfmicro/tensorflow/lite/core/api/tensor_utils.cc" 
+
+

@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../cc3100/board/board.c 
+
+C_DEPS += \
+./cc3100/board/board.d 
+
+OBJS += \
+./cc3100/board/board.obj 
+
+OBJS__QUOTED += \
+"cc3100/board/board.obj" 
+
+C_DEPS__QUOTED += \
+"cc3100/board/board.d" 
+
+C_SRCS__QUOTED += \
+"../cc3100/board/board.c" 
+
+
